@@ -47,8 +47,99 @@
         </p>
       </div>
       <div class="column-nyc">
-         <iframe width="727" height="409" src="https://www.youtube.com/embed/0_OxI2JZex4" title="Nature Is Speaking – Lupita Nyong'o is Flower | Conservation International (CI)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="727" height="409"
+            src="https://www.youtube.com/embed/0_OxI2JZex4"
+            title="Nature Is Speaking – Lupita Nyong'o is Flower | Conservation International (CI)"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
        </div>
    </div>
+   <!-- gallery -->
+   <div id="gallery" class="row">
+      <h1>Flowers Image Gallery</h1>
+      <div class="column">
+        <img
+          src="./assets/media/1.jpg"
+          alt="flower"
+          style="width: 100%"
+          onclick="expandImage(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="./assets/media/2.jpg"
+          alt="flower"
+          style="width: 100%"
+          onclick="expandImage(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="./assets/media/3.jpg"
+          alt="flower"
+          style="width: 100%"
+          onclick="expandImage(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="./assets/media/4.jpg"
+          alt="flower"
+          style="width: 100%"
+          onclick="expandImage(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="./assets/media/5.jpg"
+          alt="flower"
+          style="width: 100%"
+          onclick="expandImage(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="./assets/media/6.jpg"
+          alt="flower"
+          style="width: 100%"
+          onclick="expandImage(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="./assets/media/7.jpg"
+          alt="flower"
+          style="width: 100%"
+          onclick="expandImage(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="./assets/media/8.jpg"
+          alt="flower"
+          style="width: 100%"
+          onclick="expandImage(this);"
+        />
+      </div>
+    </div>
+
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn"
+        >&times;</span
+      >
+      <img
+        src="./assets/media/1.jpg"
+        alt="flower"
+        id="expandedPic"
+      />
+    </div>
+    <script>
+      function expandImage(imgs) {
+        var expandImg = document.getElementById("expandedPic");
+        expandImg.src = imgs.src;
+        expandImg.parentElement.style.display = "block";
+      }
+    </script>
 </body>
 </html>

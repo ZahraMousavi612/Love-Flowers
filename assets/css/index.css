@@ -53,8 +53,9 @@ body {
   }
   p {
     text-align: justify;
+    line-height: 30px;;
   }
-/*   
+  
   .column-cards {
     float: left;
     width: 23%;
@@ -139,4 +140,4 @@ body {
     border: 2px solid #fa6506;
     outline: 0;
   }
-   */
+  
