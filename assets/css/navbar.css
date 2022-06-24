@@ -36,4 +36,11 @@ ul.main-nav {
       float: none;
     }
   }
+  #footer p{
+    background-color: #043484;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
   
