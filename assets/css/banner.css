@@ -1,5 +1,5 @@
 .banner h1 {
-    color: #043484;
+    color: #800080;
     font-size: 50px;
     font-weight: 700;
     margin: 0;
@@ -12,7 +12,7 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    background: #fa6506;
+    background: #008080;
     padding: 10px 30px;
     margin-top: 10px;
   }

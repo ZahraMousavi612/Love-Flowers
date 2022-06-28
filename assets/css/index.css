@@ -40,14 +40,14 @@ body {
   }
   
   h1 {
-    color: #043484;
+    color: #800080;
   }
   
   .learn-more {
     text-transform: uppercase;
     text-decoration: none;
     color: white;
-    background: #fa6506;
+    background: #008080;
     padding: 10px 30px;
     margin: 10px 0;
     float: right;
@@ -102,13 +102,13 @@ body {
   }
   .card:hover {
     opacity: 1;
-    border: 3px solid #fa6506;
+    border: 3px solid #008080;
   }
   .card h3 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
-    color: #fa6506;
+    color: #008080;
   }
   .card img {
     width: 100%;
@@ -135,10 +135,10 @@ body {
   .card .button button {
     font-size: 16px;
     border-radius: 10px;
-    background: #fa6506;
+    background: #008080;
     color: white;
     padding: 5px;
-    border: 2px solid #fa6506;
+    border: 2px solid #008080;
     outline: 0;
   }
   
