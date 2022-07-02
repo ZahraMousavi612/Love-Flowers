@@ -1,240 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Love Flowers</title>
-     <meta name="description" content=" Information about  Flowers">
-     <meta name="keywords" content=" Love Flowers, Top Flowers">
-     <link rel="stylesheet" href="./assets/css/index.css" />
-     <link rel="stylesheet" href="./assets/css/navbar.css" />
-     <link rel="stylesheet" href="./assets/css/banner.css" />
-     <link rel="stylesheet" href="./assets/css/gallery.css" />
-</head>
-<body>
-   <header>
-    <ul class="main-nav">
-        <li><a href="#love-flowers" class="active">Love Flowers</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#top-flower">Top Flowers</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-         <li><a href="https://www.facebook.com" target="_blank"></a></li>
-      </ul>
-   </header>
 
-   <section class="banner">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Flowers</title>
+  <meta name="description" content=" Information about  Flowers">
+  <meta name="keywords" content=" Love Flowers, Top Flowers">
+
+  <!-- fancybox styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <link rel="stylesheet" href="./assets/css/navbar.css" />
+  <link rel="stylesheet" href="./assets/css/banner.css" />
+  <link rel="stylesheet" href="./assets/css/gallery.css" />
+</head>
+
+<body>
+  <header>
+    <ul class="main-nav">
+      <li><a href="#love-flowers" class="active">Love Flowers</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#top-flower">Top Flowers</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+      <li><a href="https://www.facebook.com" target="_blank"></a></li>
+    </ul>
+  </header>
+
+  <section class="banner">
     <h1>Love Flowers</h1>
     <a href="#love-flowers">Learn More...</a>
-   </section>
-   
-   <div id="flowers-info" class="row-flowers">
-      <div class="column-flowers">
-        <h1>Learn more about Flowers</h1>
-        <p>
-         A flower is the reproductive part of flowering plants. Flowers are also called the bloom or blossom of
-         a plant. Flowers have petals. Inside the part of the flower that has petals are the parts which produce
-         pollen and seeds.In all plants, a flower is usually its most colourful part. We say the plant 'flowers',
-         'is flowering' or 'is in flower' when this colourful part begins to grow bigger and open out. There are 
-         many different kinds of flowers in different areas in the world. Even in the coldest places, for example
-          the Arctic, flowers can grow during a few months.
+  </section>
 
-          <a
-            href="https://simple.wikipedia.org/wiki/Flower"
-            target="_blank"
-            class="learn-more"
-            >Go to wikipedia</a
-          >
-        </p>
+  <div id="flowers-info" class="row-flowers">
+    <div class="column-flowers">
+      <h1>Learn more about Flowers</h1>
+      <p>
+        A flower is the reproductive part of flowering plants. Flowers are also called the bloom or blossom of
+        a plant. Flowers have petals. Inside the part of the flower that has petals are the parts which produce
+        pollen and seeds.In all plants, a flower is usually its most colourful part. We say the plant 'flowers',
+        'is flowering' or 'is in flower' when this colourful part begins to grow bigger and open out. There are
+        many different kinds of flowers in different areas in the world. Even in the coldest places, for example
+        the Arctic, flowers can grow during a few months.
+
+        <a href="https://simple.wikipedia.org/wiki/Flower" target="_blank" class="learn-more">Go to wikipedia</a>
+      </p>
+    </div>
+    <div class="column-nyc">
+      <iframe width="727" height="409" src="https://www.youtube.com/embed/0_OxI2JZex4"
+        title="Nature Is Speaking – Lupita Nyong'o is Flower | Conservation International (CI)" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+  <!-- gallery -->
+  <div id="gallery" class="row">
+    <h1>Flowers Image Gallery</h1>
+    <div class="grid-container">
+      <div class="grid-item">
+        <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/1.jpg" data-caption="Caption goes here">
+          <img src="./assets/media/1.jpg" class="fancybox-photo">
+        </a>
       </div>
-      <div class="column-nyc">
-         <iframe width="727" height="409"
-            src="https://www.youtube.com/embed/0_OxI2JZex4"
-            title="Nature Is Speaking – Lupita Nyong'o is Flower | Conservation International (CI)"
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-       </div>
-   </div>
-   <!-- gallery -->
-   <div id="gallery" class="row">
-      <h1>Flowers Image Gallery</h1>
-      <div class="column">
-        <img
-          src="./assets/media/1.jpg"
-          alt="flower"
-          style="width: 100%"
-          onclick="expandImage(this);"
-        />
+      <div class="grid-item">
+        <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/2.jpg" data-caption="Caption goes here">
+          <img src="./assets/media/2.jpg" class="fancybox-photo">
+        </a>
       </div>
-      <div class="column">
-        <img
-          src="./assets/media/2.jpg"
-          alt="flower"
-          style="width: 100%"
-          onclick="expandImage(this);"
-        />
+      <div class="grid-item">
+        <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/3.jpg" data-caption="Caption goes here">
+          <img src="./assets/media/3.jpg" class="fancybox-photo">
+        </a>
       </div>
-      <div class="column">
-        <img
-          src="./assets/media/3.jpg"
-          alt="flower"
-          style="width: 100%"
-          onclick="expandImage(this);"
-        />
+      <div class="grid-item">
+        <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/4.jpg" data-caption="Caption goes here">
+          <img src="./assets/media/4.jpg" class="fancybox-photo" >
+        </a>
       </div>
-      <div class="column">
-        <img
-          src="./assets/media/4.jpg"
-          alt="flower"
-          style="width: 100%"
-          onclick="expandImage(this);"
-        />
+      <div class="grid-item">
+        <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/5.jpg" data-caption="Caption goes here">
+          <img src="./assets/media/5.jpg" class="fancybox-photo">
+        </a>
       </div>
-      <div class="column">
-        <img
-          src="./assets/media/5.jpg"
-          alt="flower"
-          style="width: 100%"
-          onclick="expandImage(this);"
-        />
+      <div class="grid-item">
+        <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/6.jpg" data-caption="Caption goes here">
+          <img src="./assets/media/6.jpg" class="fancybox-photo">
+        </a>
       </div>
-      <div class="column">
-        <img
-          src="./assets/media/6.jpg"
-          alt="flower"
-          style="width: 100%"
-          onclick="expandImage(this);"
-        />
+      <div class="grid-item">
+        <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/7.jpg" data-caption="Caption goes here">
+          <img src="./assets/media/7.jpg" class="fancybox-photo">
+        </a>
       </div>
-      <div class="column">
-        <img
-          src="./assets/media/7.jpg"
-          alt="flower"
-          style="width: 100%"
-          onclick="expandImage(this);"
-        />
-      </div>
-      <div class="column">
-        <img
-          src="./assets/media/8.jpg"
-          alt="flower"
-          style="width: 100%"
-          onclick="expandImage(this);"
-        />
+      <div class="grid-item">
+        <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/8.jpg" data-caption="Caption goes here">
+          <img src="./assets/media/8.jpg" class="fancybox-photo">
+        </a>
       </div>
     </div>
+  </div>
 
-    <div class="container">
-      <span onclick="this.parentElement.style.display='none'" class="closebtn"
-        >&times;</span
-      >
-      <img
-        src="./assets/media/1.jpg"
-        alt="flower"
-        id="expandedPic"
-      />
-    </div>
-    <script>
-      function expandImage(imgs) {
-        var expandImg = document.getElementById("expandedPic");
-        expandImg.src = imgs.src;
-        expandImg.parentElement.style.display = "block";
-      }
-    </script>
-     <!-- cards -->
-     <div id="top-flower">
-      <div class="row-cards">
-        <h1>Top 4 Most Popular Flowers</h1>
-        <div class="column-cards">
-          <div class="card">
-            <h3>Rose</h3>
-            <img
-              src="./assets/media/rose.jpg"
-              alt="rose"
-            />
-            <p>
-            In the list of top 4 flowers, roses have got to be on top for obvious reasons. 
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img src="./assets/media/1.jpg" alt="flower" id="expandedPic" />
+  </div>
+  <!-- <script>
+    function expandImage(imgs) {
+      var expandImg = document.getElementById("expandedPic");
+      expandImg.src = imgs.src;
+      expandImg.parentElement.style.display = "block";
+    }
+  </script> -->
+  <!-- cards -->
+  <div id="top-flower">
+    <div class="row-cards">
+      <h1>Top 4 Most Popular Flowers</h1>
+      <div class="column-cards">
+        <div class="card">
+          <h3>Rose</h3>
+          <img src="./assets/media/rose.jpg" alt="rose" />
+          <p>
+            In the list of top 4 flowers, roses have got to be on top for obvious reasons.
             They have such an international appeal to them. So, no doubt that roses are amongst
             the most popular flowers. They are available in different colors. A red rose flower
             is most commonly used to denote love...
-
-
-            </p>
-            <div class="button">
-              <button>Read More</button>
-            </div>
+          </p>
+          <div class="button">
+            <button>Read More</button>
           </div>
         </div>
+      </div>
 
-        <div class="column-cards">
-          <div class="card">
-            <h3>Tulip</h3>
-            <img
-              src="./assets/media/tultip.jpg"
-              alt="tultip"
-            />
-            <p>
-                Tulips are known for their bold colors and beautiful shape,
-                and most varieties are indeed almost perfectly symmetrical. 
-                The blooms have three petals and three sepals, but since the 
-                sepals are almost the same size and shape as the petals, 
-                tulips appear to have six petals to a bulb.
-
-
-            </p>
-            <div class="button">
-              <button>Read More</button>
-            </div>
+      <div class="column-cards">
+        <div class="card">
+          <h3>Tulip</h3>
+          <img src="./assets/media/tultip.jpg" alt="tultip" />
+          <p>
+            Tulips are known for their bold colors and beautiful shape,
+            and most varieties are indeed almost perfectly symmetrical.
+            The blooms have three petals and three sepals, but since the
+            sepals are almost the same size and shape as the petals,
+            tulips appear to have six petals to a bulb.
+          </p>
+          <div class="button">
+            <button>Read More</button>
           </div>
         </div>
+      </div>
 
-        <div class="column-cards">
-          <div class="card">
-            <h3>Sunflower</h3>
-            <img
-              src="./assets/media/sunflower.jpg"
-              alt="sunflower"
-            />
-            <p>
-                Sunflower is one of the popular flowers names. It
-                symbolizes loyalty as it always keeps its face towards the Sun. If
-                someone asks you "what is the most popular flower", we are more than
-                sure you wouldn't waste a minute before saying sunflower or roses, 
-                depending on your mood...
-
-
-            </p>
-            <div class="button">
-              <button>Read More</button>
-            </div>
+      <div class="column-cards">
+        <div class="card">
+          <h3>Sunflower</h3>
+          <img src="./assets/media/sunflower.jpg" alt="sunflower" />
+          <p>
+            Sunflower is one of the popular flowers names. It
+            symbolizes loyalty as it always keeps its face towards the Sun. If
+            someone asks you "what is the most popular flower", we are more than
+            sure you wouldn't waste a minute before saying sunflower or roses,
+            depending on your mood...
+          </p>
+          <div class="button">
+            <button>Read More</button>
           </div>
         </div>
+      </div>
 
-        <div class="column-cards">
-          <div class="card">
-            <h3>Daisy</h3>
-            <img src="./assets/media/daisy.jpg" alt="daisy" />
-            <p>
-              Daisy is easily found around the planet, and people also call it 
-              the cousin of the sunflower. Their beauty makes them a favorite 
-              pick as a home garden flower. Daisies make for the most popular 
-              garden flowers because they are so pleasant to look at...
-
-
-
-
-            </p>
-            <div class="button">
-              <button>Read More</button>
-            </div>
+      <div class="column-cards">
+        <div class="card">
+          <h3>Daisy</h3>
+          <img src="./assets/media/daisy.jpg" alt="daisy" />
+          <p>
+            Daisy is easily found around the planet, and people also call it
+            the cousin of the sunflower. Their beauty makes them a favorite
+            pick as a home garden flower. Daisies make for the most popular
+            garden flowers because they are so pleasant to look at...
+          </p>
+          <div class="button">
+            <button>Read More</button>
           </div>
         </div>
       </div>
     </div>
-      <!-- footer -->
-      <footer id="footer">
-         <p>&copy; CopyRight-2022</p>
-      </footer>
+  </div>
+  <!-- footer -->
+  <footer id="footer">
+    <p>&copy; CopyRight-2022</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 </body>
+
 </html>
