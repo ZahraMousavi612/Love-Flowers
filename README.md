@@ -54,3 +54,33 @@ Love Flowers is a site that explores the popular flower types and makes nice fee
 - I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
  
 - I confirmed that the navigation, header, about Love Flowers, gallery, Top 4 most populare Flowers  are all readable and easy understand.
+## Technologies Used 
+
+I have used several technologies that have enabled this design to work:
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - Used as the basic building block for the project and to structure the content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - Used to style all the web content across the project. 
+- [JavaScript](https://www.javascript.com/)
+    - Used for the responsive navbar, scroll down arrow and image gallery.
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+- [GitHub](https://github.com/)
+    - Used to store code for the project after being pushed.
+- [Gitpod](https://www.gitpod.io/)
+    - Used as the development environment.
+- [Grammarly](https://www.grammarly.com/)
+    - Used to fix the thousands of grammar errors across the project.
+- [Coloors](https://coolors.co/)
+    - Used to create a colour palette for the design.
+- [Fancybox](https://fancyapps.com/fancybox/3/)
+    - Used to format my Sri Lanka photo gallery.
+- [Color Contrast Accessibility Validator](https://color.a11y.com/)
+    - Allowed me to test the colour contrast of my webpage.
+- [W3C Markup Validation Service](https://validator.w3.org/) 
+    - Used to validate all HTML code written and used in this webpage.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Used to validate all CSS code written and used in this webpage.
+- [AmIResponsive](http://ami.responsivedesign.is/)
+    - Used to generate repsonsive image used in README file.
