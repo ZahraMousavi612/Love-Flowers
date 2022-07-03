@@ -274,7 +274,7 @@ p {
 }
 
 .card {
-  width: 250px;
+  width: 100%;
   margin: 20px auto;
   border: 3px solid rgba(0, 0, 0, 0.125);
   position: relative;
@@ -324,7 +324,7 @@ p {
   bottom: -15px;
 }
 
-.card .button button {
+.card-button {
   font-size: 16px;
   border-radius: 10px;
   background: #008080;
@@ -332,4 +332,41 @@ p {
   padding: 5px;
   border: 2px solid #008080;
   outline: 0;
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked~.read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Read more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Read less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  background: #008080;
+  color: white;
+  font-size: .9em;
+  line-height: 2;
+  border-radius: .25em;
+  margin-left: 10px;
 }
