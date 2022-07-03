@@ -12,7 +12,8 @@
   <!-- fancybox styles -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
- </head>
+</head>
+
 <body>
   <header>
     <ul class="main-nav">
@@ -56,42 +57,42 @@
     <div class="grid-container">
       <div class="grid-item">
         <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/1.jpg" data-caption="Caption goes here">
-          <img src="./assets/media/1.jpg" class="fancybox-photo">
+          <img src="./assets/media/1-min.jpg" class="fancybox-photo">
         </a>
       </div>
       <div class="grid-item">
         <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/2.jpg" data-caption="Caption goes here">
-          <img src="./assets/media/2.jpg" class="fancybox-photo">
+          <img src="./assets/media/2-min.jpg" class="fancybox-photo">
         </a>
       </div>
       <div class="grid-item">
         <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/3.jpg" data-caption="Caption goes here">
-          <img src="./assets/media/3.jpg" class="fancybox-photo">
+          <img src="./assets/media/3-min.jpg" class="fancybox-photo">
         </a>
       </div>
       <div class="grid-item">
         <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/4.jpg" data-caption="Caption goes here">
-          <img src="./assets/media/4.jpg" class="fancybox-photo" >
+          <img src="./assets/media/4-min.jpg" class="fancybox-photo">
         </a>
       </div>
       <div class="grid-item">
         <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/5.jpg" data-caption="Caption goes here">
-          <img src="./assets/media/5.jpg" class="fancybox-photo">
+          <img src="./assets/media/5-min.jpg" class="fancybox-photo">
         </a>
       </div>
       <div class="grid-item">
         <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/6.jpg" data-caption="Caption goes here">
-          <img src="./assets/media/6.jpg" class="fancybox-photo">
+          <img src="./assets/media/6-min.jpg" class="fancybox-photo">
         </a>
       </div>
       <div class="grid-item">
         <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/7.jpg" data-caption="Caption goes here">
-          <img src="./assets/media/7.jpg" class="fancybox-photo">
+          <img src="./assets/media/7-min.jpg" class="fancybox-photo">
         </a>
       </div>
       <div class="grid-item">
         <a href="#" class="" data-fancybox="gallery" data-src="./assets/media/8.jpg" data-caption="Caption goes here">
-          <img src="./assets/media/8.jpg" class="fancybox-photo">
+          <img src="./assets/media/8-min.jpg" class="fancybox-photo">
         </a>
       </div>
     </div>
@@ -101,7 +102,7 @@
     <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
     <img src="./assets/media/1.jpg" alt="flower" id="expandedPic" />
   </div>
-  
+
   <!-- cards -->
   <div id="top-flower">
     <div class="row-cards">
@@ -143,18 +144,21 @@
         <div class="card">
           <h3>Sunflower</h3>
           <img src="./assets/media/sunflower.jpg" alt="sunflower" />
-          <p>
+          <input type="checkbox" class="read-more-state" id="post-1" />
+          <p class="read-more-wrap">
             Sunflower is one of the popular flowers names. It
             symbolizes loyalty as it always keeps its face towards the Sun. If
             someone asks you "what is the most popular flower", we are more than
             sure you wouldn't waste a minute before saying sunflower or roses,
             depending on your mood...
+            <span class="read-more-target">more text</span>
           </p>
-          <div class="button">
-            <button>Read More</button>
-          </div>
+          <label for="post-1" class="read-more-trigger card-button"></label>
         </div>
       </div>
+
+
+
 
       <div class="column-cards">
         <div class="card">
