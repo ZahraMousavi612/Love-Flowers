@@ -56,7 +56,7 @@ ul.main-nav li.right {
 }
 
 /* banner style */
-.banner h1 {
+  .banner h1 {
   color: #800080;
   font-size: 50px;
   font-weight: 700;
@@ -151,10 +151,9 @@ ul.main-nav li.right {
   cursor: pointer;
 }
 
-.row {
+.row ,.contact{
   padding: 30px 60px;
 }
-
 #expandedPic {
   height: 70vh;
   width: 100%;
@@ -184,7 +183,7 @@ ul.main-nav li.right {
   display: block;
 }
 
-.row-flowers {
+.row-flowers{
   display: flex;
   padding: 50px 60px;
 }
@@ -223,6 +222,13 @@ embed {
 
 h1 {
   color: #800080;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 .learn-more {
@@ -324,7 +330,7 @@ p {
   bottom: -15px;
 }
 
-.card-button {
+.card-button ,.btn{
   font-size: 16px;
   border-radius: 10px;
   background: #008080;
@@ -369,4 +375,15 @@ p {
   line-height: 2;
   border-radius: .25em;
   margin-left: 10px;
+}
+
+.form-group{
+  font-size: 20px;
+  line-height: 40px;;
+}
+.form-input{
+  line-height: 20px;
+}
+.form-input:hover{
+  border: 3px solid #008080;
 }

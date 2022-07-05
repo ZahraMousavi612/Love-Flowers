@@ -38,15 +38,19 @@ Love Flowers is a site that explores the popular flower types and makes nice fee
 
 ![Top 4 Most Populare Flowers](media/card.JPG)
 
+- __Contact Us section__
+
+  - There is a forrm to contain input tags and take information from user, such as: First Name, Last Name and Eemail Address.
+  - Also there is a submission button that conect to a return information  page.
+
+![Contact Us](media/contact-us.JPG)
+
 - __Footer Section__
 
   - this section contain a copyright sign and  year that this webpage bulit.
 
 ![Footer Section](media/footer.JPG)
 
-### Features Left to Implement
-
-- Add  Contact us section.
 
 ### Testing
 - I tested that this page works in different browsers: Chrome, Firfox, Safari.
