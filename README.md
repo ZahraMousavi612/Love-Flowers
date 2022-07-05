@@ -40,7 +40,7 @@ Love Flowers is a site that explores the popular flower types and makes nice fee
 
 - __Contact Us section__
 
-  - There is a forrm to contain input tags and take information from user, such as: First Name, Last Name and Eemail Address.
+  - There is a forrm that contain input tags and take information from user, such as: First Name, Last Name and Email Address.
   - Also there is a submission button that conect to a return information  page.
 
 ![Contact Us](media/contact-us.JPG)
@@ -58,6 +58,18 @@ Love Flowers is a site that explores the popular flower types and makes nice fee
 - I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
  
 - I confirmed that the navigation, header, about Love Flowers, gallery, Top 4 most populare Flowers  are all readable and easy understand.
+
+## Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official W3C validator.
+- CSS
+  - No errors were found when passing through the official W3C validator.
+- Accessibility
+     - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+      ![Accessibility](accessibility.png)
+
 ## Technologies Used 
 
 I have used several technologies that have enabled this design to work:
@@ -88,3 +100,37 @@ I have used several technologies that have enabled this design to work:
     - Used to validate all CSS code written and used in this webpage.
 - [AmIResponsive](http://ami.responsivedesign.is/)
     - Used to generate repsonsive image used in README file.
+
+## Deployment
+
+I deployed this website by using GitPages and following the below steps:
+
+*GitHub pages deployment* 
+
+1. Log in to GitHub
+2. In your Repository section, select the project repository that you want to deploy
+3. In the menu located at the top of this section, click 'Settings'
+4. Select 'Pages' on the left-hand menu - this is around halfway down
+5. In the source section, select branch 'Master' and save
+6. The page is then given a site URL which The live link can be found here:      
+     -https://zahramousavi612.github.io/Love-Flowers/
+
+
+## Credits  
+
+### Content 
+
+- The text for the Learn more about Flowers was taken from WikiFlowers. [WikiFlower article](https://en.wikipedia.org/wiki/Flower)
+- The text for the Top 4 Most Popular Flowers was taken from Wikipedia source.
+
+
+### Media
+
+- The photos used on the banner, gallery, 4 Top Flowers section are from This Open Source site: [pexels](https://www.pexels.com/)
+- The video used on Learn more about Flowers was taken from this Youtube channel: https://www.youtube.com/watch?v=0_OxI2JZex4
+
+
+## Acknowledgements
+
+
+I would like to thank my course mentor Guido Cecilio for his support and guidance throughout the course of the project and my best friend Sediqa Mousavi for their support & feedback.
