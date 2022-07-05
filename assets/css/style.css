@@ -86,14 +86,9 @@ ul.main-nav li.right {
   background: url(./../media/banner.jpg);
   height: 90vh;
   width: 100%;
-  -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: flex;
   justify-content: center;
   align-items: center;
