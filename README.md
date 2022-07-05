@@ -68,7 +68,7 @@ Love Flowers is a site that explores the popular flower types and makes nice fee
 - Accessibility
      - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-      ![Accessibility](accessibility.png)
+      ![Accessibility](media/Accessibility.JPG)
 
 ## Technologies Used 
 

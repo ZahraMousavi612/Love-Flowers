@@ -227,7 +227,7 @@ h2 {
     font-weight: bold;
 }
 
-.learn-more {
+.learn-more ,.btn {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
@@ -240,7 +240,6 @@ h2 {
 p {
   text-align: justify;
   line-height: 30px;
-  ;
 }
 
 .column-cards {
@@ -326,7 +325,7 @@ p {
   bottom: -15px;
 }
 
-.card-button ,.btn{
+.card-button  {
   font-size: 16px;
   border-radius: 10px;
   background: #008080;
@@ -382,4 +381,16 @@ p {
 }
 .form-input:hover{
   border: 3px solid #008080;
+}
+.btn{
+  cursor: pointer;
+  padding: 0 .5em;
+  background: #008080;
+  color: white;
+  font-size: .9em;
+  line-height: 2;
+  border-radius: .25em;
+  border:none;
+  float:left;
+  margin: 5px 0;
 }
